@@ -1,0 +1,1270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    width: 100%;
+    min-height: 12vh;
+}
+
+.teste {
+    background-color: black;
+}
+
+.img_menu {
+    display: none;
+}
+
+.white {
+    color: white;
+}
+
+/*HEADER CSS*/
+
+.footer_containerMobile {
+    display: none;
+}
+
+.header_container {
+    display: flex ;
+    flex-direction: column;
+    height: 117px;
+    width: 100%;
+    background-color: #ffff;
+    align-items: center;
+}
+
+.header_alert {
+    width: 100%;
+    height: 37px;
+    text-align: center;
+    background-color: #B92C38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert_text {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.1%;
+    margin-right:1%;
+    color: white;
+}
+
+.header_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 80px;
+}
+
+.logo_menu_container{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu_container li{
+    list-style: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 44px;
+}
+
+.header_icons {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: space-between  ;
+}
+
+/*FOOTER CSS*/
+
+.footer_containerDesktop{
+    background-color: #B92C38;
+    width: 100%;
+    height: 839px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+}
+
+.footer_space {
+    height: 160px;
+    width: 100%;
+    background-color: white;
+}
+
+.foot_logo_container{
+    width: 598px;
+    height: 96px;
+    align-items: flex-end;
+    display: flex;
+}
+
+.foot_logo {
+    background-color: gray;
+    width: 413px;
+    height: 207px;
+}   
+
+.newsletter_container {
+    width:1792px;
+    height: 96px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 64px;
+}
+
+.login_icon {
+    margin-right: 3%;
+}
+
+.newsletter_text {
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo_textContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.newsletter_text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.newsletter_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: white;
+    font-size:16px;
+}
+
+.checkbox_container{
+    display: flex;
+    align-items: center;
+}
+
+.newsletter_option {
+    width: 24px;
+    height: 24px;
+}
+
+.newsletter_option_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: white;
+    margin-left: 3%;
+    font-size:16px;
+}
+
+.newsletter_input_container {
+    height: 96px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.newsletter_button {
+    height: 48px;
+    width: 153px;
+    background-color: #B92C38;
+    border: 2px solid white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.newsletter_input::placeholder {
+    color: white
+  }
+
+.newsletter_input {
+    height: 48px;
+    width: 404px;
+    background:transparent;
+    border: 2px solid white;
+    padding-left: 2%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer_social_container {
+    display: flex;
+    width: 90%;
+    height: 72px;
+    justify-content: space-between;
+}
+
+.logo_footer {
+    width: 124px;
+    height: 32px;
+}
+
+.empresa {
+    width: 421px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.space {
+    width: 421px;
+}
+
+.social {
+    width: 421px;
+    display: flex;
+    color: white;
+    float: right;
+    justify-content: space-between;
+    float: right;
+}
+
+.social_icons {
+    width: 85px;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.social_icons_size {
+    width: 52px;
+    height: 52px;
+}
+
+.footer_columns {
+    width: 90%;
+    height: 242px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_columns_1{
+    border-right: 2px solid white;
+    width: 421px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.desc_text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.adress_text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.email_text{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.footer_columns li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.footer_columns h6{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.footer_columns_2{
+    width: 421px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bottom_container {
+    width: 90%;
+    height: 45px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.security_container {
+    display: flex;
+    height: 100%;
+    width: 878px;
+    flex-direction: row;
+}
+
+.security_content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.security_text {
+    margin-left: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.security_main_text {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.security_second_text {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.payment_container {
+    display: flex;
+    height: 100%;
+    width: 878px;
+    flex-direction: row;
+}
+
+.payment_content {
+    height: 100%;
+    width: 878px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment_icon {
+    color: white;
+    align-items: center;
+}
+
+.pay_svg {
+    width: 80px;
+    height: 25px;
+}
+
+.assinatura_vnda {
+    width: 90%;
+    height: 37px;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cnpj {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.assinatura {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/*TELA 1440*/
+ @media screen and (max-width: 1440px){
+
+    .newsletter_container {
+        display: flex;
+        justify-content: space-between;
+        width: 1312px;
+    }
+
+    .logo_textContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .foot_logo_container{
+        width: 413px;
+        height: 207px;
+    }
+
+    .footer_social_container {
+        justify-content: center;
+        width: 1312px;
+    }
+
+    .newsletter_text {
+        margin-left: 7%;
+    }
+
+    .newsletter_input {
+        width: 245px;
+        height: 48px;
+    }
+
+    .newsletter_button {
+        width: 153px;
+        height: 48px;
+    }
+
+    .empresa {
+        width: 301px;
+    }
+
+    .space {
+        width: 301px;
+    }
+
+    .footer_columns {
+        display: flex;
+        justify-content: space-between;
+        width: 1312px;
+    }
+
+    .footer_columns_1 {
+        border-right: 2px solid white;
+        width: 301px;
+        height: 242px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .footer_columns_2 {
+        width: 301px;
+    }
+
+    .bottom_container {
+        width: 1312px;
+    }
+
+    .assinatura_vnda {
+        width: 1312px;
+    }
+
+    .payment_container {
+        display: flex;
+        height: 100%;
+        width: 638px;
+        flex-direction: row;
+    }
+
+    .pay_svg {
+        width: 32px;
+        height: 17px;
+    }
+} 
+
+/*TELA 1024*/
+
+@media screen and (max-width: 1024px) {
+
+    .header_container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .newsletter_container {
+        display: flex;
+        justify-content: space-between;
+        width: 952px;
+        height: 104px;
+    }
+
+    .logo_textContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .foot_logo_container{
+        width: 293px;
+        height: 216px;
+    }
+
+    .footer_social_container {
+        justify-content: center;
+        height: 72px;
+        width: 952px;
+    }
+
+    .newsletter_text {
+        margin-left: 7%;
+    }
+
+    .newsletter_input_container {
+        display: flex;
+        width: 294px;
+        height: 104px;
+        flex-direction: column;
+    }
+
+    .newsletter_input {
+        width: 294px;
+        height: 40px;
+    }
+
+    .newsletter_button {
+        margin-top: 20px;
+        width: 294px;
+        height: 40px;
+    }
+
+    .empresa {
+        width: 301px;
+    }
+
+    .space {
+        width: 301px;
+    }
+
+    .footer_columns {
+        display: flex;
+        justify-content: space-between;
+        width: 952px;
+        height: 260px;
+    }
+
+    .footer_columns_1 {
+        border-right: 2px solid white;
+        width: 220px;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .footer_columns_2 {
+        width: 220px;
+        height: 260px;
+    }
+
+    .bottom_container {
+        width: 952px;
+    }
+
+    .assinatura_vnda {
+        width: 952px;
+    }
+
+    .payment_container {
+        display: flex;
+        height: 100%;
+        width: 464px;
+        flex-direction: row;
+    }
+
+    .pay_svg {
+        width: 32px;
+        height: 17px;
+    }
+
+    .security_container {
+        width: 464px;
+        height: 45px;
+    }
+
+    .shield {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .security_text p { 
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/*TELA 768*/
+
+@media screen and (max-width: 769px) {
+    .alert_text {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .img_menu {
+        display: block;
+        margin-right: 10%;
+    }
+
+    .menu_container li{
+        display: none;
+    }
+
+    .footer_containerDesktop {
+        display: none;
+     }
+
+     .footer_containerMobile {
+         display: flex;
+     }
+    
+    .footer_containerDesktop {
+        display: none;
+    }
+
+    .footer_containerMobile {
+        background-color: #B92C38;;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer_spaceMobile {
+        height: 160px;
+        width: 100%;
+        background-color: white;
+    }
+    
+    .foot_logo_containerMobile{
+        width: 336px;
+        height: 285px;
+        align-items: flex-end;
+        display: flex;
+    }
+    
+    .foot_logoMobile {
+        background-color: gray;
+        width: 336px;
+        height: 285px;
+    }   
+    
+    .newsletter_containerMobile {
+        width: 696px;
+        height: 190px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction:row-reverse ;
+        align-items: flex-end;
+        margin-top: 64px;
+    }
+    
+    .newsletter_textMobile {
+        height: 85px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    
+    .logo_textContainerMobile{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    
+    .newsletter_textMobile h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        color: white;
+    }
+    
+    .newsletter_textMobile p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight:400;
+        color: white;
+        margin-bottom: 10px;
+        font-style: normal;
+        font-size:16px;
+    }
+    
+    .checkbox_containerMobile{
+        display: flex;
+        align-items: center;
+    }
+    
+    .newsletter_optionMobile {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .newsletter_option_textMobile {
+        font-family: 'Montserrat', sans-serif;
+        font-weight:400;
+        color: white;
+        font-size:16px;
+    }
+    
+    .newsletter_input_containerMobile {
+        height: 190px;
+        width: 330;
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .newsletter_buttonMobile {
+        height: 37px;
+        width: 330px;
+        background-color: #B92C38;
+        border: 2px solid white;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .newsletter_input_containerMobile form{
+        display: flex;
+        height: 90px;
+        flex-direction: column;
+        justify-content:space-between ;
+    }
+    
+    .newsletter_inputMobile::placeholder {
+        color: white
+      }
+    
+    .newsletter_inputMobile {
+        height: 37px;
+        width: 330px;
+        background:transparent;
+        border: 2px solid white;
+        padding-left: 2%;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .footer_social_containerMobile {
+        display: flex;
+        width: 696;
+        height: 72px;
+        margin-top: 15px;
+        justify-content: space-between;
+    }
+    
+    .logo_footerMobile {
+        width: 124px;
+        height: 32px;
+    }
+    
+    .empresaMobile {
+        width: 421px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .spaceMobile {
+        width: 421px;
+    }
+    
+    .socialMobile {
+        width: 421px;
+        display: flex;
+        color: white;
+        float: right;
+        justify-content: space-between;
+        float: right;
+    }
+    
+    .social_iconsMobile {
+        width: 75px;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .social_icons_sizeMobile {
+        width: 32px;
+        height: 32px;
+    }
+
+    .footer_columnsMobile {
+        width: 696px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_columns_1Mobile{
+        border-bottom: 2px solid white;
+        width: 100%;
+        height: 242px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .desc_textMobile{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .adress_textMobile{
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .email_textMobile{
+        font-size: 16px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .footer_columnsMobile li{
+        list-style: none;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .footer_columnsMobile h6{
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .footer_columns_2Mobile{
+        width: 696px;
+        height: 249px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .columns_3container{
+        display: flex;
+        flex-direction: column;
+        width: 696px;
+        margin-top: 60px;
+    }
+
+    .columns_3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .bottom_containerMobile {
+        width: 696px;
+        height: 118px;
+        border-top: 2px solid white;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .pay_svgMobile {
+        width: 45px;
+        height: 24px;
+    }
+
+    .payment_container {
+        display: flex;
+        width: 696;
+        flex-direction: row;
+    }
+
+    .payment_content{
+        justify-content: center;
+    }
+
+    .payment_up{
+        display: flex;
+        width: 348px;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .payment_down{
+        display: flex;
+        flex-direction: row;
+        width: 348px;
+        justify-content: space-between;
+    }
+
+    .assinatura_vndaMobile {
+        width: 696px;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cnpjMobile{
+        margin-bottom: 40px;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .assinaturaMobile {
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+}
+
+/*TELA 375*/
+
+@media screen and (max-width: 376px) {
+    .header_container{
+        width: 100%;
+    }
+
+    .header_main{
+        width: 80%;
+    }
+
+    .user_icon {
+        display: none;
+    }
+
+    .search_icon {
+        display: none;
+    }
+
+    .footer_containerMobile{
+        width: 100%;
+        height: 1400px;
+    }
+
+    .footer_spaceMobile{
+        position: relative;
+        width: 375px;
+        height: 80px;
+    }
+
+    .newsletter_containerMobile {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    .newsletter_input_containerMobile{
+        width: 303px;
+        margin-top: 30px;
+    }
+
+    .newsletter_textMobile{
+        margin-bottom: 20px;
+    }
+
+    .newsletter_inputMobile{
+        height: 37px;
+        width: 303px;
+    }
+
+    .newsletter_ButtonMobile{
+        height: 37px;
+        width: 303px;
+    }
+
+    .logo_textContainerMobile{
+        width: 303px;
+        height: 93px;
+    }
+
+    .foot_logo_containerMobile{
+        width: 303px;
+        height: 93px;
+        position: absolute;
+    }
+
+    .foot_logoMobile{
+        width: 303px;
+        height: 93px;
+    }
+
+    .footer_social_containerMobile{
+        width: 375px;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 303px;
+    }
+
+    .empresaMobile{
+        width: 303px;
+    }
+
+    .socialMobile{
+        width: 303px;
+        margin-top: 30px;
+    }
+
+    .social_iconsMobile{
+        width: 32px;
+        height: 32px;
+    }
+
+    .footer_columnsMobile{
+        width: 375px;
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .footer_columns_1Mobile{
+        width: 303px;
+    }
+
+    .footer_columns_2Mobile{
+        width: 303px;
+        margin-top: 10px;
+    }
+
+    .columns_3container{
+        width: 303;
+    }
+
+    .bottom_containerMobile{
+        width: 303px;
+        display: flex;
+    }
+
+    .payment_container{
+        width: 303px;
+    }
+
+    .payment_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .payment_down {
+        display: flex;
+        flex-direction: row;
+        width: 248px;
+        height: 24px;
+        justify-content: space-between;
+    }
+
+    .payment_up{
+        display: flex;
+        flex-direction: row;
+        width: 248px;
+        justify-content: space-between;
+        height: 24px;
+    }
+
+    .payment_icon {
+        width: 44px;
+        height: 24px;
+    }
+
+    .pay_svgMobile {
+        width: 30px;
+        height: 19px;
+    }
+
+    .security_container{
+        width: 303px;
+    }
+    
+    .assinatura_vndaMobile{
+        width: 375px;
+        margin-top: 60px;
+    }
+
+    .cnpjMobile {
+        width: 343px;
+        text-align: center;
+    }
+}
+
+/*TELA 320*/
+
+@media screen and (max-width: 320px) {
+    .header_containerMobile {
+        width: 100%;
+        display: none;
+    }
+
+    .footer_spaceMobile{
+        width: 100%;
+    }
+
+    .footer_containerMobile {
+        width: 100%;
+        height: 1490px;
+    }
+
+    .logo_textContainerMobile{
+        width: 248px;
+        height: 93px;
+    }
+
+    .foot_logo_containerMobile{
+        width: 248px;
+        height: 93px;
+    }
+
+    .foot_logoMobile {
+        width: 100%;
+        height: 100%;
+    }
+
+    .newsletter_containerMobile{
+        width: 248px;
+    }
+
+    .newsletter_input_containerMobile {
+        width: 100%;
+    }
+
+    .newsletter_inputMobile {
+        width: 248px;
+        height: 33px;
+    }
+
+    .newsletter_buttonMobile {
+        width: 248px;
+        height: 33px;
+    }
+
+    .footer_social_containerMobile{
+        width: 248px;
+    }
+
+    .empresaMobile {
+        width: 248px;
+    }
+
+    .socialMobile{
+        width: 248px;
+    }
+
+    .social_icons_sizeMobile {
+        width: 32px;
+        height: 32px;
+    }
+
+    .payment_container {
+        width: 248px;
+    }
+
+    .security_container {
+        width: 248px;
+    }
+
+    .footer_columnsMobile{
+        width: 248px;
+        height: 625px;
+        margin-top: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .desc_textMobile{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .email_textMobile {
+        margin-bottom: 30px;
+    }
+
+    .adress_textMobile{
+        margin-bottom: 20px;
+    }
+
+    .footer_columns_1Mobile {
+        width: 248px;
+        height: 240px;
+    }
+
+    .footer_columns_2Mobile {
+        width: 248px;
+        margin-top: 30px;
+    }
+
+    .columns_3container{
+        width: 248px;
+    }
+
+    .bottom_containerMobile {
+        width: 248px;
+        margin-top: 50px;
+    }
+
+    .security_content{
+        margin-top: 2%;
+    }
+
+    .assinatura_vndaMobile {
+        width: 100%;
+    }
+
+    .cnpjMobile {
+        width: 100%;
+    }
+}
