@@ -1003,6 +1003,7 @@ section {
     position: fixed;
     top: 0;
     left: -100%;
+    z-index: 1;
 
     height: 100vh;
     width: 100%;
@@ -1056,13 +1057,12 @@ section {
   }
 
   .categories__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .categories__title {
     height: 50px;
+    display: flex;
+    align-items: center;
   }
 
   .categories__item:hover > .categories__list {
