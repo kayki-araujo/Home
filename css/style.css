@@ -1050,19 +1050,43 @@ section {
 
   .menu__categories {
     flex: 1;
+    margin-right: 24px;
   }
 
   .categories__list .categories__list {
     display: none;
+    font-weight: 400;
   }
 
   .categories__item {
+    margin-left: 16px;
   }
 
   .categories__title {
     height: 50px;
     display: flex;
+    column-gap: 16px;
     align-items: center;
+  }
+
+  .categories__title {
+    height: 50px;
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+  }
+
+  .categories__icon {
+    margin-left: auto;
+  }
+
+  .categories__icon__last {
+    transform: rotate(-90deg);
+  }
+
+  .categories__item:hover > .categories__title > .categories__icon__top {
+    transform: rotate(180deg);
+    transition: transform 100ms;
   }
 
   .categories__item:hover > .categories__list {
